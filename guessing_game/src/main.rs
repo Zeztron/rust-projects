@@ -15,9 +15,11 @@ fn main() {
     let parsed_guess = guess.trim().parse().expect("error");
 
     let d = add_two(c, parsed_guess);
+
     println!("d = {d}");
 
     let arr = [1, 2, 3, 4, 5];
+
     let sum = sum_array(arr);
     println!("sum = {sum}");
 }
